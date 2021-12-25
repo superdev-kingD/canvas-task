@@ -1,0 +1,26 @@
+{
+  "name": "georgi-draganov-canvas-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgi94/georgi-draganov-canvas-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgi94/georgi-draganov-canvas-task/issues"
+  },
+  "homepage": "https://github.com/Georgi94/georgi-draganov-canvas-task#readme",
+  "devDependencies": {
+    "less": "^4.1.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
