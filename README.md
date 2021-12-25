@@ -1,29 +1,29 @@
 # georgi-draganov-canvas-task
 
 
-# HTML5 Canvas анимация задание
+# HTML5 Canvas animation task
 
-Привет на всички,
+Hello everyone,
 
-След като минахме фундаментите на динамична анимация миналата седмица, нека всеки от вас да тества придобитите нови умения и да напише проста апликация с HTML5 canvas.
+After going through the basics of dynamic animation last week, let each of you test your new skills and write a simple HTML5 canvas application.
 
-# Задача
+# Task
 
-Да се напише анимация, която да позволи на потребителя да създава динамични анимирани обекти чрез клик върху повърхността на канваса с приложена гравитация дърпаща ги надолу.
+Write an animation that allows the user to create dynamic animated objects by clicking on the surface of the canvas with applied gravity pulling them down.
 
-Пример: При клик на x: 200 и y: 200, да се създаде нов обект на точния координат и да започне да се анимира надолу.
+Example: Clicking on x: 200 and y: 200, create a new object at the exact coordinate and start animating it down.
 
 
-- Канвасът да е с размер 512х512 *
-- Да се поддържат квадрат или кръг. На всеки нов клик да се решава динамично с `Math.random()` дали обекта, който ще се създаде, ще бъде квадрат или кръг. *
-- Когато докоснат долния край на канваса, да подскачат обратно (обръщане на velocity) *
-- Да не се позволява на обектите да излизат извън рамките на канваса. *
-- Да има брояч, визуализиран с `fillText` в горния десен ъгъл на канваса, който да брои колко обекти са създадени *
-- Всеки обект да има random цвят, ширина и височина (за квадрат) и радиус (за кръг) *
-- Да има отделно `<input type=``"``number``"` `/>` поле което да позволява динамично да се контролира стойността на гравитацята *
-- Да се позволи интеракция с touch screens.
-- Да се позволи оразмеряване за retina screens.
-- Да се използва времето изминало от миналия фрейм за плавна анимация. *
-- Да се използва Javascript билд система. Може да ползвате `gulp`, `webpack`, `rollup` или каквато друга пожелаете. Да се генерира финален build файл. *
-- Да се използва git с ясно подредени commits. Да може да се проследи всяко направено подобрение и да има възможност да се върне към конкретна фаза на проекта. *
-- Да има package.json файл, който да позволява проекта да се стартира локално с `npm run start` команда. *
+- The canvas should be 512x512 *
+- Maintain a square or circle. At each new click, decide dynamically with `Math.random ()` whether the object to be created will be a square or a circle. *
+- When you touch the lower end of the canvas, jump back (reversal of velocity) *
+- Do not allow objects to go beyond the canvas. *
+- Have a counter visualized with `fillText` in the upper right corner of the canvas to count how many objects have been created *
+- Each object should have a random color, width and height (per square) and radius (per circle) *
+- To have a separate `<input type =` `" `` number`` "` `/>` field that allows to dynamically control the value of gravity *
+- Allow interaction with touch screens.
+- Allow sizing for retina screens.
+- Use the time elapsed from the last frame for smooth animation. *
+- Use a Javascript build system. You can use `gulp`,` webpack`, `rollup` or whatever else you want. Generate a final build file. *
+- Use git with clearly arranged commits. To be able to track any improvements made and to be able to return to a specific phase of the project. *
+- Have a package.json file that allows the project to be started locally with the `npm run start` command. *
